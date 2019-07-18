@@ -1,12 +1,13 @@
 package ivan.samoylov;
 
 public class Main {
+    
     public static final int FIELD_SIZE = 5;
     final static int startPositionX = 2;
     final static int startPositionY = 2;
 
     public static void main(String[] args) {
-	String command = "UULRLDD";
+	   String command = "UULRLDD";
 	   
        if(returnToHome(startPositionX, startPositionY, command)){
            System.out.println("Returned");
