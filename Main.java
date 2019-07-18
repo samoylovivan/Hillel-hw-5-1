@@ -7,7 +7,7 @@ public class Main {
     final static int startPositionY = 2;
 
     public static void main(String[] args) {
-	   String command = "UULRLDD";
+       String command = "UULRLDD";
 	   
        if(returnToHome(startPositionX, startPositionY, command)){
            System.out.println("Returned");
